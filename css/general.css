@@ -19,9 +19,12 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    font-family: Times, serif;
     
     background-image: url(../images/shattered.jpg);
     background-size: 12rem;
+    
+    margin:0;
     
 }
 
@@ -31,3 +34,59 @@ img {
 	width: 100%;
     display: block;
 }
+
+.masthead {
+    background-color: black;
+    overflow: hidden;    
+}
+
+article {
+    margin: 0, 2, 0;
+    padding: .5rem;
+    overflow: hidden;
+    }
+
+h2 {
+    font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    line-height: 2rem;
+    margin: 0, 3, 0;   
+    
+}
+
+
+h1 { 
+    font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
+    font-size: 4rem;
+    margin: 2, 4rem, auto;
+    padding: 0;
+    color: white;
+    
+}
+
+.logo {
+    height: 7rem;
+    width: 7rem;
+    margin: 5rem, auto;
+    padding: .5rem;
+    float: right;           
+}
+
+.billboard {
+    overflow: hidden;
+    background-image: url(../images/image_four.jpg);
+    background-color: #a4a9ac; 
+    margin: 12% 3, 0;
+    padding: 12rem;
+    background-repeat:no-repeat;
+    background-size: 100% 
+        
+}
+    
+
+    
+    
+    
+    
+    
