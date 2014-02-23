@@ -19,7 +19,13 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
+    
+    background-image: url(../images/shattered.jpg);
+    background-size: 12rem;
+    
 }
+
+
 
 img {
 	width: 100%;
