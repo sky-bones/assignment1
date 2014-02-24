@@ -1,214 +1,191 @@
 @charset "utf-8";
-
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-* {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+@-moz-viewport {
+    width: device-width;
+    scale: 1;
 }
-
+@-ms-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-o-viewport {
+    width: device-width;
+    scale: 1;
+}
+@-webkit-viewport {
+    width: device-width;
+    scale: 1;
+}
+@viewport {
+    width: device-width;
+    scale: 1;
+}
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 html {
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-    
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     font-size: 100%;
     font-family: Times, serif;
-    
     background-image: url(../images/shattered.jpg);
     background-size: 12rem;
-    
-    margin:0;
-    
+    margin: 0;
 }
-
 body {
-     margin: 0;
+    margin: 0;
     padding: 0;
 }
-
 img {
-	width: 100%;
+    width: 100%;
     display: block;
 }
-
 .masthead {
     background-color: black;
-    overflow: hidden;    
+    overflow: hidden;
 }
-
 article {
     margin: 1px .5rem auto;
-    padding: .5rem 1.5rem ;
+    padding: .5rem 1.5rem;
     overflow: hidden;
-    }
-
+}
 h2 {
     font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
     font-size: 1.4rem;
     font-weight: lighter;
     line-height: 1.8rem;
-    margin: 0px;       
+    margin: 0px;
 }
-
-
-h1 { 
+h1 {
     font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
     font-size: 4rem;
     font-weight: lighter;
     margin: 2rem auto;
     padding: 0;
     color: white;
-    float: right;    
+    float: right;
 }
-
 .logo {
     height: 7rem;
     width: 7rem;
     margin: 3px 5px 3px 0px;
     padding: 0;
-    float: right;   
+    float: right;
 }
-
 .logo2 {
     height: 5rem;
     width: 5rem;
     margin: 6px 5px;
     padding: 0;
-    float: right; 
+    float: right;
 }
 .billboard {
     overflow: hidden;
     background-image: url(../images/image_four.jpg);
-    background-color: #a4a9ac; 
+    background-color: #a4a9ac;
     margin: auto;
     padding: 2rem;
-    background-repeat:no-repeat;
-    background-size: 100%             
+    background-repeat: no-repeat;
+    background-size: 100%
 }
-    
 hr {
-    padding:0;
+    padding: 0;
     margin: 90.75px 0 0;
     color: white;
 }
-
 .hr2 {
     padding: 0;
     margin: 1.5rem;
     color: #364562;
 }
-
 .hr3 {
-    padding:0;
+    padding: 0;
     margin: 10px 0 0;
-    color: white;   
+    color: white;
 }
-
-
 #rectangle {
-	width: 100rem;
-	height: 6px;
-	background-color:rgba(255, 255, 255, .50);
-    padding:0;
-    margin: 3.5px; 
+    width: 100rem;
+    height: 6px;
+    background-color: rgba(255, 255, 255, .50);
+    padding: 0;
+    margin: 3.5px;
     overflow: hidden;
 }
- 
 figcaption {
-    font-family:"Century Gothic", sans-serif;
+    font-family: "Century Gothic", sans-serif;
     font-size: .75rem;
-    padding:0;   
+    padding: 0;
 }
-
 .dropcap:first-letter {
     font-size: 4.8rem;
     font-weight: bold;
-    float:left;
-    margin:1.5rem .5rem 1rem 0;
-    color: #27364b ;
+    float: left;
+    margin: 1.5rem .5rem 1rem 0;
+    color: #27364b;
 }
-
 .secondarycap:first-letter {
     font-size: 2.3rem;
     font-weight: lighter;
-    float:left;
-    margin:.2rem 1px .5px 0;
-    padding: 
-    color: #27364b ;
+    float: left;
+    margin: .2rem 1px .5px 0;
+    color: #27364b;
 }
-
 p {
     font-family: "Century Gothic", sans-serif;
     font-size: 1rem;
     line-height: 1.5rem;
     margin: 1.5rem 0px;
 }
-
 p span {
     color: #364562;
     font-weight: bold;
 }
-
 h2+p {
     font-family: "Century Gothic", sans-serif;
     line-height: 1.5rem;
-    font-size: 1.1rem;    
+    font-size: 1.1rem;
 }
-
 details {
     font-family: "Century Gothic", sans-serif;
     line-height: 1.5rem;
 }
-
-
 .witch {
-    color:#364562;
-    font-weight: bold;   
+    color: #364562;
+    font-weight: bold;
 }
-
 ol {
     background: rgba(54, 69, 98, .70);
     font-weight: bold;
     color: white
 }
-
 .choiceno14 {
     font-weight: bold;
     color: rgba(54, 69, 98, .70);
     line-height: 1.5rem;
 }
-
 .choiceno5 {
-    color:darkred;
-    font-weight: bolder;    
-        }
-
+    color: darkred;
+    font-weight: bolder;
+}
 strong {
     font-size: 2rem;
     font-family: serif;
     margin: .75rem .5rem .75rem 0;
 }
-
 footer {
     background: black;
     padding: 0;
-    overflow: hidden;    
+    overflow: hidden;
 }
-
 footer p {
     color: white;
     font-size: .75rem;
     line-height: 1rem;
     margin: .75rem 2% .5rem;
 }
-
 footer a {
     color: white;
-}    
+}
