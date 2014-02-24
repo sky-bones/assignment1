@@ -127,10 +127,10 @@ figcaption {
     color: #27364b;
 }
 .secondarycap:first-letter {
-    font-size: 2.3rem;
+    font-size: 1.3rem;
     font-weight: lighter;
     float: left;
-    margin: .2rem 1px .5px 0;
+    margin: .2rem .1rem .5px 0;
     color: #27364b;
 }
 p {
