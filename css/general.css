@@ -74,9 +74,10 @@ h1 {
 .logo {
     height: 7rem;
     width: 7rem;
-    margin: 5rem, auto;
-    padding: .5rem, 0;
-    float: right;           
+    margin: 3px 5px 3px 0px;
+    padding: 0;
+    float: right;
+               
 }
 
 .billboard {
@@ -87,16 +88,31 @@ h1 {
     padding: 2rem;
     background-repeat:no-repeat;
     background-size: 100% 
+     
         
 }
     
 hr {
     
     padding:0;
-    margin: 85px, 0, 70, 0;
+    margin: 89px 0 0;
 
+}
+
+#rectangle {
+	width: 200px;
+	height: 100px;
+	background: red;
+}
     
     
+#div1 {
     
+	background: red;
+}
+
+#div2 {
+    background: green;
+}
     
     
