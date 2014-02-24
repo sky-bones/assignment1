@@ -94,6 +94,12 @@ hr {
     color: white;
 }
 
+.hr2 {
+    padding: 0;
+    margin: 1.5rem;
+    color: #364562;
+}
+
 
 #rectangle {
 	width: 100rem;
@@ -127,6 +133,11 @@ p {
     margin: 1.5rem, 0;
 }
 
+p span {
+    color: #364562;
+    font-weight: bold;
+}
+
 h2+p {
     font-family: "Century Gothic", sans-serif;
     line-height: 1.5rem;
@@ -138,14 +149,24 @@ details {
     line-height: 1.5rem;
 }
 
-details+p {
-    line-height: 1.5rem;
-}
 
 .witch {
     color:#364562;
+    font-weight: bold;   
+}
+
+ol {
+    background: rgba(54, 69, 98, .70);
     font-weight: bold;
-    
+    color: white
+}
+
+.secondarycap:first-letter {
+    font-size: 2.8rem;
+    font-weight: lighter;
+    float:left;
+    margin:.75rem .5rem .75rem 0;
+    color: #27364b ;
 }
 /*  
 #div1 {
