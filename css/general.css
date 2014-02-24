@@ -33,7 +33,6 @@ body {
     padding: 0;
 }
 
-
 img {
 	width: 100%;
     display: block;
@@ -63,8 +62,8 @@ h1 {
     font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
     font-size: 4rem;
     font-weight: lighter;
-    margin: 1, 2rem, auto;
-    padding: 0, 0, auto;
+    margin: 1rem, 2rem, auto;
+    padding: auto;
     color: white;
     float: right;    
 }
@@ -74,9 +73,16 @@ h1 {
     width: 7rem;
     margin: 3px 5px 3px 0px;
     padding: 0;
-    float: right;               
+    float: right;   
 }
 
+.logo2 {
+    height: 5rem;
+    width: 5rem;
+    margin: 6px 5px;
+    padding: 0;
+    float: right; 
+}
 .billboard {
     overflow: hidden;
     background-image: url(../images/image_four.jpg);
@@ -88,7 +94,6 @@ h1 {
 }
     
 hr {
-    
     padding:0;
     margin: 90.75px 0 0;
     color: white;
@@ -100,6 +105,12 @@ hr {
     color: #364562;
 }
 
+.hr3 {
+    padding:0;
+    margin: 10px 0 0;
+    color: white;   
+}
+
 
 #rectangle {
 	width: 100rem;
@@ -109,13 +120,11 @@ hr {
     margin: 3.5px; 
     overflow: hidden;
 }
-
-   
+ 
 figcaption {
     font-family:"Century Gothic", sans-serif;
     font-size: .75rem;
-    padding:0;
-    
+    padding:0;   
 }
 
 .dropcap:first-letter {
@@ -168,30 +177,44 @@ ol {
     margin:.75rem .5rem .75rem 0;
     color: #27364b ;
 }
-/*  
-#div1 {
+
+.choiceno14 {
+    font-weight: bold;
+    color: rgba(54, 69, 98, .70);
+    line-height: 1.5rem;
+}
+
+.choiceno5 {
+    color:darkred;
+    font-weight: bolder;    
+        }
+
+strong {
+    font-size: 2rem;
+    font-family: serif;
+    margin: .75rem .5rem .75rem 0;
+}
+
+footer {
+    background: black;
+    padding: 0;
+    overflow: hidden;
+
     
-	background: red;
 }
 
-#div2 {
-    background: green;
+footer p {
+    color: white;
+    font-size: .75rem;
+    line-height: 1rem;
+    margin: .75rem 2% .5rem;
 }
 
-#div3 {
-    background: pink;
+footer a {
+    color: white;
 }
 
-#div4 {
-    background: yellow;
-}
+    
+    
 
-#div5 {
-    background: lightblue;
-}
-
-#div6 {
-    background: lightgreen;
-}
-    */
     
