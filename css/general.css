@@ -45,18 +45,17 @@ img {
 }
 
 article {
-    margin: 0, 2, 0;
-    padding: .5rem;
+    margin: 1, 2rem, auto;
+    padding: 1.75rem;
     overflow: hidden;
     }
 
 h2 {
     font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: lighter;
-    line-height: 2rem;
-    margin: 0, 3, 0;   
-    
+    line-height: 1.8rem;
+    margin: 0, 3, 0;       
 }
 
 
@@ -64,11 +63,10 @@ h1 {
     font-family: "Century Gothic", Avant-Garde, Arial, sans-serif;
     font-size: 4rem;
     font-weight: lighter;
-    margin: 2, 3rem, auto;
+    margin: 1, 2rem, auto;
     padding: 0, 0, auto;
     color: white;
-    float: right;
-    
+    float: right;    
 }
 
 .logo {
@@ -76,34 +74,41 @@ h1 {
     width: 7rem;
     margin: 3px 5px 3px 0px;
     padding: 0;
-    float: right;
-               
+    float: right;               
 }
 
 .billboard {
     overflow: hidden;
     background-image: url(../images/image_four.jpg);
     background-color: #a4a9ac; 
-    margin: 12% 3, 0;
+    margin: 10% 3, 0;
     padding: 2rem;
     background-repeat:no-repeat;
-    background-size: 100% 
-     
-        
+    background-size: 100%             
 }
     
 hr {
     
     padding:0;
-    margin: 89px 0 0;
-
+    margin: 90.75px 0 0;
+    color: white;
 }
+
 
 #rectangle {
-	width: 200px;
-	height: 100px;
-	background: red;
+	width: 100rem;
+	height: 6px;
+	background-color:rgba(255, 255, 255, .50);
+    padding:0;
+    margin: 3.5px; 
+    overflow: hidden;
 }
+
+.figure {
+    margin:0,0;
+    padding: 0;
+}
+    
     
     
 #div1 {
